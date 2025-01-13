@@ -8,8 +8,8 @@ const Navbar = ({ scrollToTop }) => {
 
   const scrollToSection = (sectionId) => {
     // If we're not on the root page, navigate first
-    if (location.pathname !== '/') {
-      navigate('/');
+    if (location.pathname !== '/Personal-Portfolio') {
+      navigate('/Personal-Portfolio');
       // Wait for navigation to complete before scrolling
       setTimeout(() => {
         const element = document.getElementById(sectionId);
@@ -48,8 +48,8 @@ const Navbar = ({ scrollToTop }) => {
   };
 
   const handleLogoClick = () => {
-    if (location.pathname !== '/') {
-      navigate('/');
+    if (location.pathname !== '/Personal-Portfolio') {
+      navigate('/Personal-Portfolio');
       setTimeout(() => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
       }, 100);
