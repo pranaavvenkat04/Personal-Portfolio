@@ -10,7 +10,7 @@ const About = ({ linkToLinkedin, linkToGithub, linkToEmail, linktoResume }) => {
   useEffect(() => {
     const checkScreenSize = () => {
       const width = window.innerWidth;
-      setIsSmallScreen(width <= 768);
+      setIsSmallScreen(width <= 400);
       setIsMediumScreen(width <= 900);
     };
 
@@ -67,7 +67,7 @@ const About = ({ linkToLinkedin, linkToGithub, linkToEmail, linktoResume }) => {
           <div className={`md:col-span-3 order-2 md:order-1 transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
             <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-6 shadow-xl">
               <h1 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-4 break-words">
-                Hi <span className="inline-block animate-[wave_2s_ease-in-out_infinite]">👋</span>! I'm {isSmallScreen ? "Pranaav Venkat" : "Pranaav Venkatasubramanian"}
+                Hello World<span className="inline-block animate-[wave_2s_ease-in-out_infinite]">👋</span>! I'm {isSmallScreen ? "Pranaav Venkat" : "Pranaav Venkatasubramanian"}
               </h1>
               <p className="text-gray-600 text-sm md:text-base mb-6">
                 An aspiring software engineer with a focus on Operating Systems and Firmware development. Always eager to learn, experience new things, and expand my knowledge. Feel free to explore my work and connect with me to collaborate or learn more!
