@@ -26,7 +26,7 @@ const Projects = ({ limit = 6, showAll = false}) => {
   }, [hoveredIndex]);
 
   useEffect(() => {
-    if (location.pathname === '/Personal-Portfolio/projects') {
+    if (location.pathname === '/projects') {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }, [location]);
@@ -228,7 +228,7 @@ const Projects = ({ limit = 6, showAll = false}) => {
 
   return (
     <section id="projects" className={`min-h-screen relative ${
-      location.pathname === '/Personal-Portfolio/projects' ? 'pt-32 pb-16' : 'py-16'
+      location.pathname === '/projects' ? 'pt-32 pb-16' : 'py-16'
     }`}>
       <div className="max-w-[1320px] w-full mx-auto px-4 relative">
         {/* Back button */}
@@ -439,7 +439,7 @@ const Projects = ({ limit = 6, showAll = false}) => {
       {!showAll && filteredProjects.length >= limit && (
           <div className="flex justify-center mt-12">
             <button
-              onClick={() => navigate('/Personal-Portfolio/projects')}
+              onClick={() => navigate('/projects')}
               className="group flex items-center gap-2 px-8 py-3 text-lg font-medium text-white bg-black rounded-full transition-all duration-300 hover:scale-105"
             >
               More Projects

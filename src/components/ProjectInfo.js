@@ -1,6 +1,6 @@
 export const mainTags = ['ALL', 'PYTHON', 'REACT', 'NASA'];
 
-{/* project_exmaple = 
+/* project_exmaple = 
     {
         title: "",
         image: "/projects/images/test.png",
@@ -29,7 +29,7 @@ export const mainTags = ['ALL', 'PYTHON', 'REACT', 'NASA'];
             type: "pdf"
         }
     }
-*/}
+*/
 
 export const projects = [
   {

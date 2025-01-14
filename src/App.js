@@ -6,8 +6,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/Personal-Portfolio" element={<Portfolio/>} />
-        <Route path="/Personal-Portfolio/projects" element={<ProjectsPage />} />
+        <Route path="/" element={<Portfolio/>} />
+        <Route path="/projects" element={<ProjectsPage />} />
       </Routes>
     </Router>
     
