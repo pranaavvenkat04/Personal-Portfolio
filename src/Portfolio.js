@@ -22,7 +22,7 @@ const Portfolio = () => {
           linkToLinkedin={'https://www.linkedin.com/in/pranaav-venkat/'}
           linkToGithub={'https://github.com/pranaavvenkat04'}
           linkToEmail={'mailto:pranaav.venkat04@gmail.com'}
-          linktoResume={'/Pranaav Venkatasubramanian.pdf'}
+          linktoResume={'/Pranaav_Venkatasubramanian.pdf'}
         />
         <Skills/>
         <Projects limit={6} showAll={false}/>
@@ -33,7 +33,7 @@ const Portfolio = () => {
         linkToLinkedin={'https://www.linkedin.com/in/pranaav-venkat/'}
         linkToGithub={'https://github.com/pranaavvenkat04'}
         linkToEmail={'mailto:pranaav.venkat04@gmail.com'}
-        linktoResume={'/Pranaav Venkatasubramanian.pdf'}
+        linktoResume={'/Pranaav_Venkatasubramanian.pdf'}
         scrollToTop={scrollToTop}
       />
     </div>
