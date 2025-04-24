@@ -70,7 +70,7 @@ const About = ({ linkToLinkedin, linkToGithub, linkToEmail, linktoResume }) => {
                 Hello World<span className="inline-block animate-[wave_2s_ease-in-out_infinite]">👋</span>! I'm {isSmallScreen ? "Pranaav Venkat" : "Pranaav Venkatasubramanian"}
               </h1>
               <p className="text-gray-600 text-sm md:text-base mb-6">
-                An aspiring software engineer with a focus on Operating Systems and Firmware development. Always eager to learn, experience new things, and expand my knowledge. Feel free to explore my work and connect with me to collaborate or learn more!
+                An aspiring Software Engineer with a focus on OS/Firmware Development. Always eager to learn, experience new things, and expand my knowledge. Feel free to explore my work and connect with me to collaborate or learn more!
               </p>
 
               <div className="flex flex-col sm:flex-row items-center gap-6">
